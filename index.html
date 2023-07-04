@@ -25,15 +25,86 @@
   <body>
     <div class="container">
       <h2>Product List</h2>
-      <div id="product-list" class="product-list"></div>
+      <div
+        id="product-list"
+        class="product-list d-flex col-md-12 col-lg-12 col-sm-12"
+      >
+        <!-- <div class="product-item">
+          <span class="product-name">Product 1</span>
+          <span class="product-price">$10</span>
+          <button class="btn btn-sm btn-primary add-to-cart">
+            Add to Cart
+          </button>
+        </div> -->
 
+        <div class="card" style="width: 18rem">
+          <img src="./p-1.jpg" class="card-img-top" alt="..." />
+          <div class="card-body product-item">
+            <span class="product-name"><b>Package 1</b></span
+            ><br />
+            <span class="product-price">$45</span><br />
+            <button class="btn btn-sm btn-success add-to-cart">
+              Add to Cart
+            </button>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img src="./p-2.jpg" class="card-img-top" alt="..." />
+          <div class="card-body product-item">
+            <span class="product-name"><b>Package 2</b></span
+            ><br />
+            <span class="product-price">$75</span><br />
+            <button class="btn btn-sm btn-success add-to-cart">
+              Add to Cart
+            </button>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img src="./p-3.jpg" class="card-img-top" alt="..." />
+          <div class="card-body product-item">
+            <span class="product-name"><b>Package 3</b></span
+            ><br />
+            <span class="product-price">$95</span><br />
+            <button class="btn btn-sm btn-success add-to-cart">
+              Add to Cart
+            </button>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img src="./p-4.jpg" class="card-img-top" alt="..." />
+          <div class="card-body product-item">
+            <span class="product-name"><b>Package 4</b></span
+            ><br />
+            <span class="product-price">$125</span><br />
+            <button class="btn btn-sm btn-success add-to-cart">
+              Add to Cart
+            </button>
+          </div>
+        </div>
+
+        <!-- <div class="product-item">
+          <span class="product-name">Product 2</span>
+          <span class="product-price">$15</span>
+          <button class="btn btn-sm btn-primary add-to-cart">
+            Add to Cart
+          </button>
+        </div>
+ -->
+
+        <!-- <div class="product-item">
+          <span class="product-name">Product 3</span>
+          <span class="product-price">$20</span>
+          <button class="btn btn-sm btn-primary add-to-cart">
+            Add to Cart
+          </button>
+        </div> -->
+      </div>
       <h2>Shopping Cart</h2>
       <div id="shopping-cart"></div>
       <div id="cart-total" class="cart-total"></div>
 
       <button id="clear-cart" class="btn btn-danger">Clear Cart</button>
     </div>
-
-    <script src="app.js"></script>
+    <script src="index.js"></script>
   </body>
 </html>

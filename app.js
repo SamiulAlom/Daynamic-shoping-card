@@ -113,4 +113,4 @@ const clearCartButton = document.getElementById("clear-cart");
 clearCartButton.addEventListener("click", clearCart);
 
 // Initialize the product list
-createProductList();
+// createProductList();
